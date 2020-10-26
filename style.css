@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    background: whitesmoke !important;
+}
+
+/* navbar */
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px !important;
+    margin-left: -84px !important;
+    margin-top: 12px !important;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 40px !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    background: #261A6F;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 5px !important;
+    color: white;
+    border: none;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 22px !important;
+    margin-top: 30px !important;
+}
+
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+/* jumbotron */
+.img-bg {
+    margin-top: -37rem;
+    margin-left: 490px !important;
+    width: 820px;
+    height: 840px;
+}
+
+.jumbotron {
+    border-radius: 0 !important;
+    width: auto;
+    height: 140vh;
+    background-color: #261A6F !important;
+}
+
+.display-4 {
+    font-family: 'Poppins', sans-serif !important;
+    color: white;
+    font-weight: 700 !important;
+    margin-top: 11rem !important;
+    position: relative;
+}
+
+.lead {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+    position: relative;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    background: #2C1C8E !important;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 330px;
+    height: 100px;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    padding: 22px 0px !important;
+}
+
+/* panel */
+.panel {
+    margin: auto;
+    width: 80%;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: -100px !important;
+    position: relative;
+}
+
+.img-panel {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 100px;
+    height: 90px;
+}
+
+footer {
+    margin-top: 5rem !important;
+}
